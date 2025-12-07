@@ -1,0 +1,26 @@
+.calculator-screen {
+  height: 100px;
+  background-color: #222;
+  color: white;
+  font-size: 2em;
+  text-align: right;
+  padding: 10px;
+  box-sizing: border-box;
+}
+button {
+  width: 25%;
+  height: 80px;
+  font-size: 1.5em;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+button.operator {
+  background-color: #f0ad4e;
+  color: white;
+}
+.button.equal-sign {
+  background-color: #5cb85c;
+  color: white;
+  height: 160px;
+}
